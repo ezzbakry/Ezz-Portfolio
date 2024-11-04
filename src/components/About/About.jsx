@@ -25,6 +25,10 @@ const TypedContainer = styled(Box)(({ theme }) => ({
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform:"translate(-50%, -50%)",
     textAlign: "center",
     width: "100%", // Full width to stay within parent boundaries
     height: "100%",
@@ -67,16 +71,16 @@ export default function About() {
                                 />
                             </Subtitle>
                             <Box sx={{ display: 'flex', gap: 1, mt: 2, justifyContent: { xs: 'center', md: 'flex-start' } }}>
-                                <IconButton sx={{color:"tan"}} size='large' href="https://www.facebook.com/ezzelden.amer?mibextid=LQQJ4d" target="_blank">
+                                <IconButton sx={{ color: "tan" }} size='large' href="https://www.facebook.com/ezzelden.amer?mibextid=LQQJ4d" target="_blank">
                                     <Facebook />
                                 </IconButton>
-                                <IconButton sx={{color:"tan"}} size='large' href="https://www.linkedin.com/in/ezz-eldeen-amer-b0ba2727b/" target="_blank">
+                                <IconButton sx={{ color: "tan" }} size='large' href="https://www.linkedin.com/in/ezz-eldeen-amer-b0ba2727b/" target="_blank">
                                     <LinkedIn />
                                 </IconButton>
-                                <IconButton sx={{color:"tan"}} size='large' href="https://github.com/ezzbakry" target="_blank">
+                                <IconButton sx={{ color: "tan" }} size='large' href="https://github.com/ezzbakry" target="_blank">
                                     <GitHub />
                                 </IconButton>
-                                <IconButton sx={{color:"tan"}} size='large' href="http://Wa.me/+2001096238797" target="_blank">
+                                <IconButton sx={{ color: "tan" }} size='large' href="http://Wa.me/+2001096238797" target="_blank">
                                     <WhatsApp />
                                 </IconButton>
                             </Box>
