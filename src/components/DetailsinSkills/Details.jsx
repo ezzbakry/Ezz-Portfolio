@@ -48,7 +48,7 @@ export default function Details() {
                                 
                             }}
                             size="large"
-                            href="https://drive.google.com/file/d/1v9hjv2QoUZxdrjMlw_N3LnLpPkno2KO9/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1TITxJAUEBd6LDgWp9281b2RyaGsNFi07/view?usp=drivesdk"
                             target="_blank"
                             endIcon={<DocumentScannerIcon />}
                             variant="contained"

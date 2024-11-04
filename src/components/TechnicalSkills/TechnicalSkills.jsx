@@ -21,7 +21,7 @@ export default function Technical() {
                         <Typography variant="h5" sx={{ fontWeight: "bold", color: "#1976d2", marginBottom: "50px" }}>
                             <ReactTyped strings={["Web Techniques"]} typeSpeed={70}
                                 backSpeed={70} loop>
-                                <span>Web Techniques</span>
+                                <span></span>
                             </ReactTyped>
                         </Typography>
                         <span style={{ fontWeight: 'bold' }}><TechniquesGrid /></span>
@@ -29,7 +29,7 @@ export default function Technical() {
                     <Box sx={{ flex: 1, justifyContent: "center", textAlign: 'center' }}>
 
                         <Typography variant="h5" sx={{ fontWeight: "bold", color: "#1976d2", marginBottom: "50px" }}><ReactTyped strings={["Programming Languages"]} typeSpeed={50}
-                            backSpeed={50} loop ><span>Programming Languages</span></ReactTyped></Typography>
+                            backSpeed={50} loop ><span></span></ReactTyped></Typography>
 
                         <span style={{ fontWeight: 'bold' }}>
                             <LanguageGrid />

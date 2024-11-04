@@ -7,8 +7,8 @@ export default function Divider() {
             <Box
                 sx={{
                     borderTop: '2px solid #cccccc',
-                    marginTop: '70px',
-                    marginBottom: '50px',
+                    marginTop: '50px',
+                    marginBottom: '60px',
 
                 }}
             />

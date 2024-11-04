@@ -11,8 +11,7 @@ export default function Skills() {
         <>
             <div id='About'>
                 <ThemeProvider theme={DarkTheme}>
-                    <Divider></Divider>
-                    <Box sx={{ display: "flex" }}>
+                    <Box sx={{ display: "flex",marginTop:"30px" }}>
                         <Typography variant='h4' sx={{ margin: "auto", fontWeight: "bold", color: "primary.main" }}>About Me</Typography>
                     </Box>
                     <Box sx={{ display: "flex", flexGrow: 1, marginTop: "30px" }}>
