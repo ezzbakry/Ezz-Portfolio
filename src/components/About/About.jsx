@@ -38,7 +38,7 @@ export default function About() {
 
     return (
         <>
-            <div id='about' className='about'>
+            <div id='Home' className='about'>
                 <Box sx={{
                     display: "flex",
                     alignItems: "center",

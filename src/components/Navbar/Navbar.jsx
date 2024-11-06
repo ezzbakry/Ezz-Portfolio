@@ -18,7 +18,7 @@ import DarkTheme from '../../Darktheme.js';
 import { ThemeProvider } from '@mui/material/styles';
 import { Link as ScrollLink } from 'react-scroll';
 const drawerWidth = 250;
-const navItems = ['About', 'Projects', 'Contact'];
+const navItems = ["Home",'About', 'Projects', 'Contact'];
 function DrawerAppBar(props) {
     const { window } = props;
     const [mobileOpen, setMobileOpen] = React.useState(false);
