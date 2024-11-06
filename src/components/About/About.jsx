@@ -38,7 +38,7 @@ export default function About() {
 
     return (
         <>
-            <div className='about'>
+            <div id='about' className='about'>
                 <Box sx={{
                     display: "flex",
                     alignItems: "center",
@@ -54,7 +54,7 @@ export default function About() {
                                 <StyledAvatar sx={{
                                     width: { xs: 200, md: 350 }, // Smaller on mobile, larger on desktop
                                     height: { xs: 200, md: 350 },
-                                }} src='/WhatsApp Image 2024-07-11 at 13.58.17_a8efe3b9.jpg' alt="Mahmudul Alam" />
+                                }} src='/WhatsApp Image 2024-07-11 at 13.58.17_a8efe3b9.jpg' alt="Ezz" />
                             </Grid>
                             <Title variant="h4">
                                 <ReactTyped strings={["Ezz Eldeen Amer"]} typeSpeed={50} />

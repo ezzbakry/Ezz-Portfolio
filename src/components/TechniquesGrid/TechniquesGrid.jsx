@@ -19,10 +19,6 @@ export default function TechniquesGrid() {
                 <DividerForTechnical></DividerForTechnical>
                 <Grid item xs={12} md={6}>jQuery</Grid>
                 <Grid item xs={12} md={6}>Node.js</Grid>
-                
-
-
-
             </Grid>
         </>
     )

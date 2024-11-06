@@ -16,7 +16,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import DarkTheme from '../../Darktheme.js';
 import { ThemeProvider } from '@mui/material/styles';
-import Link from '@mui/material/Link';
+import { Link as ScrollLink } from 'react-scroll';
 const drawerWidth = 250;
 const navItems = ['About', 'Projects', 'Contact'];
 function DrawerAppBar(props) {
@@ -25,6 +25,9 @@ function DrawerAppBar(props) {
 
     const handleDrawerToggle = () => {
         setMobileOpen((prevState) => !prevState);
+    };
+    const handleLinkClick = () => {
+        setMobileOpen(false);
     };
 
     const drawer = (
@@ -36,10 +39,15 @@ function DrawerAppBar(props) {
             <List>
                 {navItems.map((item) => (
                     <ListItem key={item} disablePadding>
-                        <ListItemButton sx={{ textAlign: 'center' }}>
-                            <Link sx={{ color: '#fff', textDecoration: "none",textAlign: 'center',margin:"auto" }} href={`#${item}`}>
-                                <ListItemText sx={{ color: "#fff" }} primary={item} />
-                            </Link>
+                        <ListItemButton sx={{ textAlign: 'center', justifyContent: "center" }}>
+                            <ScrollLink
+                                to={item}
+                                smooth={true}
+                                duration={1000}
+                                onClick={handleLinkClick}
+                            >
+                                <ListItemText sx={{ color: "#fff", textAlign: "center" }} primary={item} />
+                            </ScrollLink>
 
                         </ListItemButton>
                     </ListItem>
@@ -76,13 +84,17 @@ function DrawerAppBar(props) {
                             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                                 {navItems.map((item) => (
                                     <Button key={item} sx={{ color: '#fff', margin: "20px" }}>
-                                        <Typography variant='h6'>
-                                            <Link sx={{ color: '#fff', textDecoration: "none" }} href={`#${item}`}>
+                                        <ScrollLink
+                                            to={item}
+                                            smooth={true}
+                                            duration={1000}
+                                            offset={-40}
+                                        >
+                                            <Typography variant='h6'>
                                                 {item}
-                                            </Link>
 
-                                        </Typography>
-
+                                            </Typography>
+                                        </ScrollLink>
 
 
                                     </Button>
