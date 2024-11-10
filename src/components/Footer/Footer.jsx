@@ -57,12 +57,12 @@ export default function Footer() {
                                     </Box>
                                     <Box sx={{ display: "flex" }}>
                                         <ExitToAppOutlined sx={{ marginRight: "10px", marginTop: "10px", fontSize: { xs: "24px", md: "30px" } }} />
-                                        <Button href='https://www.upwork.com/freelancers/~019c8d5f06a017a1ac?mp_source=share' target='_blank' size='small' sx={{
+                                        <Button href='https://www.freelancer.com/u/Ezz58?sb=t' target='_blank' size='small' sx={{
                                             letterSpacing: '1px',
                                             fontSize: { xs: "15px", md: "20px" },
                                             backgroundColor: "inherit"
 
-                                        }} variant='contained'>Go to UpWork account </Button>
+                                        }} variant='contained'>Go to Freelancer account </Button>
                                     </Box>
                                     <Box sx={{ display: "flex" }}>
                                         <ExitToAppOutlined sx={{ marginRight: "10px", marginTop: "10px", fontSize: { xs: "24px", md: "30px" } }} />
